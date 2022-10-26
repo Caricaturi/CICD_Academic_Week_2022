@@ -21,3 +21,8 @@ test('divide should divide', async t => {
 	const result = calculator.divide(9, 3)
   t.is(result, 3)
 })
+
+test('Testing tests', async t => {
+	const result = calculator.seila(3, 3)
+  t.is(result, 27)
+})
