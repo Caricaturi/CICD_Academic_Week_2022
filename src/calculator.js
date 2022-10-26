@@ -14,7 +14,7 @@ function divide(a, b) {
   return a / b
 }
 
-function seila(a,b){
+function expo(a,b){
   return (a**b)
 }
 
@@ -23,4 +23,5 @@ module.exports = {
   subtract,
   multiply,
   divide,
+  expo,
 }

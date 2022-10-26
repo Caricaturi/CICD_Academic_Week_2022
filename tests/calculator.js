@@ -23,6 +23,6 @@ test('divide should divide', async t => {
 })
 
 test('Testing tests', async t => {
-	const result = calculator.seila(3, 3)
+	const result = calculator.expo(3, 3)
   t.is(result, 27)
 })

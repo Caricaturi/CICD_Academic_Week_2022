@@ -42,7 +42,7 @@ app.post('/divide', function (req, res) {
 
 app.post('/expo', function (req, res) {
   res.json({
-    result: calculator.seila(req.body.a, req.body.b)
+    result: calculator.expo(req.body.a, req.body.b)
   })
 })
 
